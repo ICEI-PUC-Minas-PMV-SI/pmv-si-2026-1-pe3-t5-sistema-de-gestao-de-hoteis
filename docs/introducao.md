@@ -40,8 +40,14 @@ Desenvolver um sistema de gerenciamento operacional para hotéis que permita cen
 
 ## 1.3. Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A motivação para o desenvolvimento deste projeto está relacionada à necessidade de criar uma solução que melhore e otimize determinadas atividades no gerenciamento de hotéis, que muitas vezes ainda são realizadas de forma manual ou pouco eficiente. Com o avanço da tecnologia e o crescente uso de sistemas digitais, torna-se cada vez mais importante o desenvolvimento de plataformas que auxiliem os usuários a realizar tarefas de maneira mais rápida, organizada e segura.
+
+Além disso, alguns aspectos específicos do software foram escolhidos para maior aprofundamento por apresentarem grande relevância no funcionamento da aplicação, como a organização dos quartos ocupados e o gerenciamento das equipes de limpeza, permitindo maior controle e eficiência nas operações do hotel.
+
+Dessa forma, o desenvolvimento desta aplicação contribui tanto para a solução de um problema prático quanto para a melhoria e otimização das atividades relacionadas ao gerenciamento hoteleiro.
 
 ## 1.4. Público alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+O público-alvo desta aplicação é composto principalmente por profissionais responsáveis pelo gerenciamento e organização das atividades de um hotel. Entre eles estão recepcionistas, gerentes e demais funcionários envolvidos na administração das reservas, no controle de quartos e na organização das equipes de limpeza.
+
+O sistema busca auxiliar esses usuários na realização de tarefas do dia a dia, oferecendo uma forma mais organizada e eficiente de gerenciar as informações e operações do hotel.
