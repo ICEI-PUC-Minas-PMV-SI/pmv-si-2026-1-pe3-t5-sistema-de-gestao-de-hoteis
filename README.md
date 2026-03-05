@@ -6,20 +6,22 @@
 
 `SEMESTRE: 3º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O presente projeto consiste no desenvolvimento de um sistema de gerenciamento operacional para hotéis, com o objetivo de auxiliar na organização e no acompanhamento das atividades internas do estabelecimento. A aplicação busca centralizar informações relacionadas ao status dos quartos, controle de ocupação e registro das atividades de limpeza.
+
+Com isso, o sistema pretende facilitar o acesso às informações operacionais do hotel, melhorar a comunicação entre os setores e apoiar a gestão das atividades diárias realizadas por funcionários e gestores.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Ana Beatriz Coura
+* Lucas Vinicius Lima Fernandes
+* Júlio César de Oliveira Junior
+* Cícero Guilherme Gongaza Silvestre
+* Isabelle Cristine Lucas Costa
+* Beatriz Gabriela Ferreira Brandão
 
 ## Orientador
 
-* Nome completo do professor 
+* Roselene Henrique Pereira Costa
 
 # Planejamento
 
