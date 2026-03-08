@@ -31,15 +31,3 @@ A literatura acadêmica ainda é escassa em:
 - UX (User Experience) para o setor operacional: Poucos estudos focam na ergonomia do software para o pessoal da limpeza que utiliza dispositivos móveis em movimento.
 
 - Integração com IoT (Internet das Coisas): Pesquisas que conectem o sistema de gestão a sensores de presença nos quartos para automatizar o status de "quarto vago/sujo" sem intervenção humana.
-
-### Referências Bibliográficas (Normas ABNT)
-
-OLIVEIRA, F. G.; ALMEIDA, M. S.; COSTA, R. J. Sistemas de gestão e a comunicação interna em meios de hospedagem: um estudo sobre a integração entre setores. Florianópolis: Jornal de Gestão Hoteleira, v. 12, n. 2, p. 45-60, 2023.
-
-RODRIGUES, L. C. A usabilidade de sistemas móveis na governança hoteleira: desafios e oportunidades. São Paulo: Editora Acadêmica TI, 2024.
-
-SANTOS, T. P. Transformação Digital na Hotelaria: do papel ao dashboard. Revista Brasileira de Pesquisa em Turismo, v. 18, e-2450, 2024. Disponível em: [Link fictício para exemplo]. Acesso em: 08 mar. 2026.
-
-SILVA, J. A.; SANTOS, M. R. A tecnologia da informação na gestão operacional hoteleira: um estudo de caso sobre eficiência produtiva. Rio de Janeiro: Revista de Turismo e Tecnologia, v. 10, n. 1, p. 102-115, 2022.
-
-SOUZA, L. F. Impacto da automação nos processos de governança e limpeza em hotéis de médio porte. Belo Horizonte: UFMG, 2024. (Monografia de Bacharelado em Hotelaria).
