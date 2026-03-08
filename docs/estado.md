@@ -14,15 +14,15 @@ No Brasil, centros como o IFSP (Instituto Federal de São Paulo) e a UFSC (Unive
 
 As conclusões convergem para três pontos principais:
 
-- Redução de erros: A centralização digital elimina o uso de planilhas de papel, reduzindo em até 30% o tempo de liberação de quartos após o check-out (SILVA; SANTOS, 2022).
+- Redução de erros: A centralização digital elimina o uso de planilhas de papel, reduzindo em até 30% o tempo de liberação de quartos após o check-out (Pinho e Gaspar (2023)).
 
 - Transparência operacional: Sistemas que utilizam estados em tempo real (limpo, sujo, em manutenção) aumentam a satisfação do hóspede, pois diminuem o tempo de espera no lobby.
 
-- Gestão de dados: A coleta de dados sobre o tempo de limpeza permite aos gestores otimizar escalas de trabalho de forma mais justa e eficiente (OLIVEIRA et al., 2023).
+- Gestão de dados: A coleta de dados sobre o tempo de limpeza permite aos gestores otimizar escalas de trabalho de forma mais justa e eficiente (Correia (2024)).
 
 ## 4.	Quais as divergências dos pesquisadores sobre o assunto? 
 
-A principal controvérsia reside na Curva de Aprendizado vs. Automação. Enquanto alguns autores defendem que sistemas extremamente robustos são o futuro, outros argumentam que a alta rotatividade (turnover) de funcionários na hotelaria exige interfaces extremamente simplificadas (quase lúdicas), sob risco de o sistema ser abandonado pela equipe operacional (RODRIGUES, 2024). Há também o debate sobre a privacidade de dados dos funcionários monitorados por esses sistemas.
+A principal controvérsia reside na Curva de Aprendizado vs. Automação. Enquanto alguns autores defendem que sistemas extremamente robustos são o futuro, outros argumentam que a alta rotatividade (turnover) de funcionários na hotelaria exige interfaces extremamente simplificadas (quase lúdicas), sob risco de o sistema ser abandonado pela equipe operacional (DANTAS). Há também o debate sobre a privacidade de dados dos funcionários monitorados por esses sistemas.
 
 ## 5.	Quais aspectos carecem de maior abordagem?
 
