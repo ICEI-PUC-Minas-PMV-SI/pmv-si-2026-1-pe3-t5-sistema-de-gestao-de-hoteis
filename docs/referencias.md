@@ -1,39 +1,29 @@
 # REFERÊNCIAS
 
-Lista de referências utilizadas e citadas no trabalho:
-- **IBGE – Instituto Brasileiro de Geografia e Estatística.** Pesquisa de Serviços de Hospedagem.  
-  Disponível em: https://www.ibge.gov.br
+- IBGE – Instituto Brasileiro de Geografia e Estatística. **Pesquisa de Serviços de Hospedagem.** Disponível em: [https://www.ibge.gov.br].
 
-- **HOTEX.** Global Panorama of the Hotel Industry & Trends.  
-  Disponível em: https://hotex.com.br/global-panorama-of-the-hotel-industry-trends/
+- HOTEX. **Global Panorama of the Hotel Industry & Trends.** Disponível em: [https://hotex.com.br/global-panorama-of-the-hotel-industry-trends/].
 
-- **STR.** Hotel Industry Analytics.  
-  Disponível em: https://str.com
+- STR. **Hotel Industry Analytics.** Disponível em: [https://str.com].
 
-- **Wikipédia.** Turismo no Brasil.  
-  Disponível em: https://pt.wikipedia.org/wiki/Turismo_no_Brasil
+- Wikipédia. **Turismo no Brasil.** Disponível em: [https://pt.wikipedia.org/wiki/Turismo_no_Brasil].
 
-- **ABC Hospitality.** 2025: Um Ano Crucial para a Transformação no Setor da Hotelaria e do Bem-Estar.  
-  Disponível em: https://www.abchospitality.pt/pt/2025-um-ano-crucial-para-a-transformacao-no-setor-da-hotelaria-e-do-bem-estar/
+- ABC Hospitality. **2025: Um Ano Crucial para a Transformação no Setor da Hotelaria e do Bem-Estar.** Disponível em: [https://www.abchospitality.pt/pt/2025-um-ano-crucial-para-a-transformacao-no-setor-da-hotelaria-e-do-bem-estar/].
 
-- **EISI HOTEL.** Conheça os 5 desafios na gestão hoteleira e como solucioná-los.  
-  Disponível em: https://eisihotel.com
+- EISI HOTEL. **Conheça os 5 desafios na gestão hoteleira e como solucioná-los.** Disponível em: [https://eisihotel.com]. 
 
-- **FASTHOTEL.** Desafios da gestão hoteleira e estratégias para melhorar a operação.  
-  Disponível em: https://fasthotel.com.br/blog/gestao-hoteleira/desafios-gestao-hoteleira/
+- FASTHOTEL. **Desafios da gestão hoteleira e estratégias para melhorar a operação.** Disponível em: [https://fasthotel.com.br/blog/gestao-hoteleira/desafios-gestao-hoteleira/].
 
-- **HOTELIER NEWS.** Hotelaria enfrenta desafio com dados fragmentados.  
-  Disponível em: https://hoteliernews.com.br/hotelaria-enfrenta-desafio-com-dados-fragmentados/
+- HOTELIER NEWS. **Hotelaria enfrenta desafio com dados fragmentados.** Disponível em: [https://hoteliernews.com.br/hotelaria-enfrenta-desafio-com-dados-fragmentados/].
 
-- **HOSPITALITY BRASIL.** Os grandes desafios da hotelaria no Brasil.  
-  Disponível em: https://hospitalitybr.com.br/destaque/19139/
+- HOSPITALITY BRASIL. **Os grandes desafios da hotelaria no Brasil.** Disponível em: [https://hospitalitybr.com.br/destaque/19139/].
   
-- OLIVEIRA, F. G.; ALMEIDA, M. S.; COSTA, R. J. Sistemas de gestão e a comunicação interna em meios de hospedagem: um estudo sobre a integração entre setores. Florianópolis: Jornal de Gestão Hoteleira, v. 12, n. 2, p. 45-60, 2023.
+- PINHO, Thays; GASPAR, Larissa Souza. **Transformação Digital no setor hoteleiro: desafios para gestores de pequenas empresas.** Revista Turismo & Cidades, São Luís, v. 5, n. 12, p. 85-107, 2023.
 
-- RODRIGUES, L. C. A usabilidade de sistemas móveis na governança hoteleira: desafios e oportunidades. São Paulo: Editora Acadêmica TI, 2024.
+- CORREIA, Francisco Maria Lobo Machado Perestrelo. **Modelos de Gestão Hoteleira.** 2024. Dissertação (Mestrado em Gestão Hoteleira) - Universidade Lusófona, Lisboa, 2024.
 
-- SANTOS, T. P. Transformação Digital na Hotelaria: do papel ao dashboard. Revista Brasileira de Pesquisa em Turismo, v. 18, e-2450, 2024. Disponível em: [Link fictício para exemplo]. Acesso em: 08 mar. 2026.
+- SILVA, J. M. et al. **Desafios e benefícios da integração de sistemas de tecnologia da informação nos empreendimentos turísticos.** Natal: UFRN, 2024..
 
-- SILVA, J. A.; SANTOS, M. R. A tecnologia da informação na gestão operacional hoteleira: um estudo de caso sobre eficiência produtiva. Rio de Janeiro: Revista de Turismo e Tecnologia, v. 10, n. 1, p. 102-115, 2022.
+- DANTAS, Maria José. **Uso de tecnologia na governança hoteleira.** Maria José Dantas, [s.d.]. Disponível em: [https://www.mariajosedantas.com/uso-de-tecnologia-na-governanca-hoteleira/]. 
 
-- SOUZA, L. F. Impacto da automação nos processos de governança e limpeza em hotéis de médio porte. Belo Horizonte: UFMG, 2024. (Monografia de Bacharelado em Hotelaria).
+- MORAIS, Ana Cláudia Bezerra de. **Sistemas de gestão hoteleira (PMS): um estudo sobre a percepção de facilidade de uso e utilidade por profissionais de recepção e governança.** 2021. 50 f. Trabalho de Conclusão de Curso (Bacharelado em Turismo) - Departamento de Turismo, Centro de Ciências Sociais Aplicadas, Universidade Federal do Rio Grande do Norte, Natal, 2021. Disponível em: [https://repositorio.ufrn.br/handle/123456789/46215.].
