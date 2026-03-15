@@ -8,7 +8,7 @@ Descrever e especificar os requisitos do sistema de gerenciamento operacional de
 ## 3.2 Escopo do produto
 
 ### 3.2.1 Nome do produto e seus componentes principais
-O produto será denominado **HotelMind – Sistema de Gerenciamento Operacional para Hotéis**. O sistema será composto por três componentes principais:
+O produto será denominado **HotelMind – Sistema de Gestão de Hotéis**. O sistema será composto por três componentes principais:
 
 #### Gestão de Quartos
 Responsável pelo cadastro, consulta e atualização das informações dos quartos do hotel, incluindo número, tipo e status operacional.
