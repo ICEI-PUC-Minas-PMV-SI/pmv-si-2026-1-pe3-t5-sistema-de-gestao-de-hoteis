@@ -1,4 +1,4 @@
-# Título do Projeto
+# HotelMind - Sistema de Gestão de Hotéis
 
 `CURSO: Sistemas de Informação`
 
