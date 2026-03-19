@@ -1,7 +1,4 @@
 # 3. DOCUMENTO DE ESPECIFICAÇÃO DE REQUISITOS DE SOFTWARE
-
-Nesta parte do trabalho são detalhados os requisitos do sistema proposto, apresentando seus objetivos, escopo, funcionalidades e benefícios esperados.
-
 ## 3.1 Objetivos deste documento
 Descrever e especificar os requisitos do sistema de gerenciamento operacional de hotéis proposto neste trabalho. O documento tem como objetivo apresentar as funcionalidades, restrições e características do sistema, permitindo compreender como a aplicação poderá auxiliar no controle das operações internas do hotel, especialmente no gerenciamento de quartos, organização das atividades de limpeza e visualização da ocupação do estabelecimento.
 
