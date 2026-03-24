@@ -69,17 +69,10 @@ O sistema não contempla funcionalidades de sistemas completos de gestão hotele
 | Funcionário de Limpeza | Usuário responsável por visualizar e registrar atividades de limpeza dos quartos. |
 
 ## 3.4 Modelagem do Sistema
-
-### 3.4.1 Diagrama de Casos de Uso
-Como observado no diagrama de casos de uso da Figura 1, a secretária poderá gerenciar as matrículas e professores no sistema, enquanto o coordenador, além dessas funções, poderá gerenciar os cursos de aperfeiçoamento.
-
-#### Figura 1: Diagrama de Casos de Uso do Sistema.
-
-![dcu](https://github.com/user-attachments/assets/41f6b731-b44e-43aa-911f-423ad6198f47)
  
-### 3.4.2 Descrições de Casos de Uso
+### 3.4.1 Descrições de Casos de Uso
 
-### 3.4.1 Diagrama de Casos de Uso
+### 3.4.2 Diagrama de Casos de Uso
 Cada diagrama apresentado na seção anterior representa um conjunto de casos de uso relacionados às funcionalidades do sistema HotelMind. A seguir são apresentadas as descrições correspondentes aos casos de uso presentes em cada diagrama.
 
 ### Diagrama 1 — Gestão de Quartos
