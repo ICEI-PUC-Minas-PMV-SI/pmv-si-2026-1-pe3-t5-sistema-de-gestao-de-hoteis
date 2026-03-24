@@ -77,22 +77,22 @@ Cada diagrama apresentado na seção anterior representa um conjunto de casos de
 O Diagrama 1 representa as funcionalidades relacionadas ao gerenciamento e controle dos quartos do hotel, permitindo o cadastro, atualização de status e visualização das informações dos quartos.
 
 ## Casos de uso do Diagrama 1:
-## Realizar Login
+### Realizar Login
 Permite que o gerente e o recepcionista acessem o sistema utilizando login e senha.
-## Gerenciar Quartos
+### Gerenciar Quartos
 Permite ao gerente cadastrar, alterar, excluir e consultar informações dos quartos do hotel.
-## Controlar Status dos Quartos
+### Controlar Status dos Quartos
 Permite ao gerente e ao recepcionista atualizar o status dos quartos, como disponível, ocupado, em limpeza ou manutenção.
-## Visualizar Painel de Quartos
+### Visualizar Painel de Quartos
 Permite ao gerente e ao recepcionista visualizar todos os quartos do hotel e seus respectivos status.
 #### Figura 1: Diagrama de Caso de Uso Gestão de quartos
 ![Diagrama 1](../diagrama1.png)
 
-#### Diagrama 2 — Gestão de Limpeza
+## Diagrama 2 — Gestão de Limpeza
 
 O Diagrama 2 representa as funcionalidades relacionadas ao gerenciamento das atividades de limpeza dos quartos e à atribuição de funcionários responsáveis.
 
-#### Casos de uso do Diagrama 2:
+## Casos de uso do Diagrama 2:
 #### Realizar Login
 Permite que o gerente e o funcionário de limpeza acessem o sistema por meio de autenticação.
 #### Gerenciar Atividades de Limpeza
@@ -104,18 +104,18 @@ Permite ao funcionário de limpeza registrar que a atividade de limpeza foi conc
 #### Figura 2: Diagrama de Casos de Uso Gestão de Limpeza
 ![Diagrama 2](../diagrama2.png)
 
-### Diagrama 3 — Ocupação e Administração
+## Diagrama 3 — Ocupação e Administração
 
 O Diagrama 3 representa as funcionalidades relacionadas ao controle da ocupação do hotel e ao gerenciamento dos funcionários.
 
 ## Casos de uso do Diagrama 3:
-## Realizar Login
+### Realizar Login
 Permite que o gerente e o recepcionista acessem o sistema utilizando suas credenciais.
-## Visualizar Painel de Quartos
+### Visualizar Painel de Quartos
 Permite visualizar o status geral dos quartos do hotel.
 ## Consultar Ocupação do Hotel
 Permite ao gerente e ao recepcionista visualizar a quantidade de quartos disponíveis, ocupados e em limpeza.
-## Gerenciar Funcionários
+### Gerenciar Funcionários
 Permite ao gerente cadastrar, editar, excluir e consultar informações dos funcionários do hotel.
 
 #### Figura : Diagrama de Casos de Uso Ocupação e Administração
