@@ -79,52 +79,56 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
  
 ### 3.4.2 Descrições de Casos de Uso
 
-Cada caso de uso deve ter a sua descrição representada nesta seção. Exemplo:
+### 3.4.1 Diagrama de Casos de Uso
+Cada diagrama apresentado na seção anterior representa um conjunto de casos de uso relacionados às funcionalidades do sistema HotelMind. A seguir são apresentadas as descrições correspondentes aos casos de uso presentes em cada diagrama.
 
-#### Gerenciar Professor (CSU01)
+### Diagrama 1 — Gestão de Quartos
+O Diagrama 1 representa as funcionalidades relacionadas ao gerenciamento e controle dos quartos do hotel, permitindo o cadastro, atualização de status e visualização das informações dos quartos.
 
-Sumário: A Secretária realiza a gestão (inclusão, remoção, alteração e consulta) dos dados sobre professores.
+## Casos de uso do Diagrama 1:
+## Realizar Login
+Permite que o gerente e o recepcionista acessem o sistema utilizando login e senha.
+## Gerenciar Quartos
+Permite ao gerente cadastrar, alterar, excluir e consultar informações dos quartos do hotel.
+## Controlar Status dos Quartos
+Permite ao gerente e ao recepcionista atualizar o status dos quartos, como disponível, ocupado, em limpeza ou manutenção.
+## Visualizar Painel de Quartos
+Permite ao gerente e ao recepcionista visualizar todos os quartos do hotel e seus respectivos status.
+#### Figura 1: Diagrama de Caso de Uso Gestão de quartos
+![Diagrama 1](../diagrama1.png)
 
-Ator Primário: Secretária.
+#### Diagrama 2 — Gestão de Limpeza
 
-Ator Secundário: Coordenador.
+O Diagrama 2 representa as funcionalidades relacionadas ao gerenciamento das atividades de limpeza dos quartos e à atribuição de funcionários responsáveis.
 
-Pré-condições: A Secretária deve ser validada pelo Sistema.
+#### Casos de uso do Diagrama 2:
+#### Realizar Login
+Permite que o gerente e o funcionário de limpeza acessem o sistema por meio de autenticação.
+#### Gerenciar Atividades de Limpeza
+Permite registrar e acompanhar as atividades de limpeza realizadas nos quartos.
+#### Atribuir Funcionário para Limpeza
+Permite ao gerente designar um funcionário responsável pela limpeza de um quarto.
+#### Registrar Conclusão de Limpeza
+Permite ao funcionário de limpeza registrar que a atividade de limpeza foi concluída.
+#### Figura 2: Diagrama de Casos de Uso Gestão de Limpeza
+![Diagrama 2](../diagrama2.png)
 
-Fluxo Principal:
+### Diagrama 3 — Ocupação e Administração
 
-1) 	A Secretária requisita manutenção de professores.
-2) 	O Sistema apresenta as operações que podem ser realizadas: inclusão de um novo professor, alteração de um professor, a exclusão de um professor e a consulta de dados de um professor.
-3) 	A Secretária seleciona a operação desejada: Inclusão, Exclusão, Alteração ou Consulta, ou opta por finalizar o caso de uso.
-4) 	Se a Secretária desejar continuar com a gestão de professores, o caso de uso retorna ao passo 2; caso contrário o caso de uso termina.
+O Diagrama 3 representa as funcionalidades relacionadas ao controle da ocupação do hotel e ao gerenciamento dos funcionários.
 
-Fluxo Alternativo (3): Inclusão
+## Casos de uso do Diagrama 3:
+## Realizar Login
+Permite que o gerente e o recepcionista acessem o sistema utilizando suas credenciais.
+## Visualizar Painel de Quartos
+Permite visualizar o status geral dos quartos do hotel.
+## Consultar Ocupação do Hotel
+Permite ao gerente e ao recepcionista visualizar a quantidade de quartos disponíveis, ocupados e em limpeza.
+## Gerenciar Funcionários
+Permite ao gerente cadastrar, editar, excluir e consultar informações dos funcionários do hotel.
 
-a)	A Secretária requisita a inclusão de um professor. <br>
-b)	O Sistema apresenta uma janela solicitando o CPF do professor a ser cadastrado. <br>
-c)	A Secretária fornece o dado solicitado. <br>
-d)	O Sistema verifica se o professor já está cadastrado. Se sim, o Sistema reporta o fato e volta ao início; caso contrário, apresenta um formulário em branco para que os detalhes do professor (Código, Nome, Endereço, CEP, Estado, Cidade, Bairro, Telefone, Identidade, Sexo, Fax, CPF, Data do Cadastro e Observação) sejam incluídos. <br>
-e)	A Secretária fornece os detalhes do novo professor. <br>
-f)	O Sistema verifica a validade dos dados. Se os dados forem válidos, inclui o novo professor e a grade listando os professores cadastrados é atualizada; caso contrário, o Sistema reporta o fato, solicita novos dados e repete a verificação. <br>
-
-Fluxo Alternativo (3): Remoção
-
-a)	A Secretária seleciona um professor e requisita ao Sistema que o remova. <br>
-b)	Se o professor pode ser removido, o Sistema realiza a remoção; caso contrário, o Sistema reporta o fato. <br>
-
-Fluxo Alternativo (3): Alteração
-
-a)	A Secretária altera um ou mais dos detalhes do professor e requisita sua atualização. <br>
-b)	O Sistema verifica a validade dos dados e, se eles forem válidos, altera os dados na lista de professores, caso contrário, o erro é reportado. <br>
- 
-Fluxo Alternativo (3): Consulta
-
-a)	A Secretária opta por pesquisar pelo nome ou código e solicita a consulta sobre a lista de professores. <br>
-b)	O Sistema apresenta uma lista professores. <br>
-c)	A Secretária seleciona o professor. <br>
-d)	O Sistema apresenta os detalhes do professor no formulário de professores. <br>
-
-Pós-condições: Um professor foi inserido ou removido, seus dados foram alterados ou apresentados na tela.
+#### Figura : Diagrama de Casos de Uso Ocupação e Administração
+![Diagrama 3](../diagrama3.png)
 
 ### 3.4.3 Diagrama de Classes 
 
