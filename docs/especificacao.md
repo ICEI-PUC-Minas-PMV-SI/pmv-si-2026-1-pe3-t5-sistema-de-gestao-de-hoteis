@@ -71,8 +71,6 @@ O sistema não contempla funcionalidades de sistemas completos de gestão hotele
 ## 3.4 Modelagem do Sistema
  
 ### 3.4.1 Descrições de Casos de Uso
-
-### 3.4.2 Diagrama de Casos de Uso
 Cada diagrama apresentado na seção anterior representa um conjunto de casos de uso relacionados às funcionalidades do sistema HotelMind. A seguir são apresentadas as descrições correspondentes aos casos de uso presentes em cada diagrama.
 
 ### Diagrama 1 — Gestão de Quartos
