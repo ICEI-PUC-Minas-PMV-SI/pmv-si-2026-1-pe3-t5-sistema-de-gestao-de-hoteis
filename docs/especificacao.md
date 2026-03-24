@@ -113,7 +113,7 @@ O Diagrama 3 representa as funcionalidades relacionadas ao controle da ocupaçã
 Permite que o gerente e o recepcionista acessem o sistema utilizando suas credenciais.
 ### Visualizar Painel de Quartos
 Permite visualizar o status geral dos quartos do hotel.
-## Consultar Ocupação do Hotel
+### Consultar Ocupação do Hotel
 Permite ao gerente e ao recepcionista visualizar a quantidade de quartos disponíveis, ocupados e em limpeza.
 ### Gerenciar Funcionários
 Permite ao gerente cadastrar, editar, excluir e consultar informações dos funcionários do hotel.
