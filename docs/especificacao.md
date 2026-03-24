@@ -118,25 +118,32 @@ Permite ao gerente e ao recepcionista visualizar a quantidade de quartos dispon�
 ### Gerenciar Funcionários
 Permite ao gerente cadastrar, editar, excluir e consultar informações dos funcionários do hotel.
 
-#### Figura : Diagrama de Casos de Uso Ocupação e Administração
+#### Figura 3 : Diagrama de Casos de Uso Ocupação e Administração
 ![Diagrama 3](../diagrama3.png)
 
-### 3.4.3 Diagrama de Classes 
+### 3.4.2 Diagrama de Classes 
 
-A Figura 2 mostra o diagrama de classes do sistema. A Matrícula deve conter a identificação do funcionário responsável pelo registro, bem com os dados do aluno e turmas. Para uma disciplina podemos ter diversas turmas, mas apenas um professor responsável por ela.
+Figura 4 apresenta o diagrama de classes do sistema HotelMind. O modelo foi estruturado com foco nas funcionalidades previstas no escopo do sistema, especialmente no gerenciamento de quartos, controle de status, atividades de limpeza, controle da ocupação do hotel e gerenciamento de funcionários.
 
+A classe Quarto representa uma das entidades centrais do sistema, armazenando informações como número, tipo e status operacional. A classe AtividadeLimpeza está relacionada ao acompanhamento das tarefas de limpeza dos quartos, permitindo registrar, atribuir responsáveis e concluir atividades. Já a classe PainelOcupacao concentra a visualização geral da situação do hotel, apresentando dados sobre quartos disponíveis, ocupados, em limpeza e em manutenção.
+
+Para representar os usuários do sistema, foi definida a classe abstrata Usuario, responsável pelos dados de autenticação. A partir dela, a classe Funcionario é especializada em perfis como Gerente, Recepcionista e FuncionarioLimpeza, cada um com responsabilidades específicas dentro da operação do hotel. Além disso, a classe HistoricoStatus foi incluída para registrar alterações realizadas no status dos quartos, contribuindo para o controle e rastreabilidade das operações do sistema.
 #### Figura 2: Diagrama de Classes do Sistema.
  
-![image](https://github.com/user-attachments/assets/abc7591a-b46f-4ea2-b8f0-c116b60eb24e)
+![Diagrama de Classes](../diagrama%20de%20classes.png)
 
 
-### 3.4.4 Descrições das Classes 
+### 3.4.3 Descrições das Classes 
 
 | # | Nome | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
-| 1	|	Aluno |	Cadastro de informações relativas aos alunos. |
-| 2	| Curso |	Cadastro geral de cursos de aperfeiçoamento. |
-| 3 |	Matrícula |	Cadastro de Matrículas de alunos nos cursos. |
-| 4 |	Turma |	Cadastro de turmas.
-| 5	|	Professor |	Cadastro geral de professores que ministram as disciplinas. |
-| ... |	... |	... |
+| 1	|	Hotel | Representa o hotel e centraliza o gerenciamento operacional do sistema.	 |
+| 2	| Usuario | Classe abstrata com os dados de autenticação dos usuários.	|
+| 3 |	Funcionario | Classe abstrata base para os funcionários do hotel. |
+| 4 | Gerente | Responsável pelo gerenciamento geral do sistema.	|
+| 5	|	Recepcionista |	Responsável pelo controle de status e visualização dos quartos. |
+| 6 | FuncionarioLimpeza | Responsável pelas atividades de limpeza dos quartos.|
+| 7 | Quarto | Armazena as informações dos quartos do hotel. |
+| 8 | AtividadeLimpeza | Registra e acompanha as tarefas de limpeza. | 
+| 9 | PainelOcupacao | Registra e acompanha as tarefas de limpeza. |
+| 10 | HistoricoStatus | Registra alterações de status dos quartos. |
