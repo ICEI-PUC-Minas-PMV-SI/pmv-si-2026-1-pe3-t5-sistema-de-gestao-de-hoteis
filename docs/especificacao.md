@@ -117,7 +117,7 @@ Permite ao gerente e ao recepcionista visualizar a quantidade de quartos dispon�
 Permite ao gerente cadastrar, editar, excluir e consultar informações dos funcionários do hotel.
 
 #### Figura: Diagrama de Casos de Uso 
-![Diagrama de uso](../Diagrama de uso.png)
+![Diagrama de uso](../Diagramadeuso.png)
 
 ### 3.4.2 Diagrama de Classes 
 
