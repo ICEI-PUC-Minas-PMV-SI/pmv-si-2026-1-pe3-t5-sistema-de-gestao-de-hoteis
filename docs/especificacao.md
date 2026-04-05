@@ -253,7 +253,7 @@ A classe Quarto representa uma das entidades centrais do sistema, armazenando in
 Para representar os usuários do sistema, foi definida a classe abstrata Usuario, responsável pelos dados de autenticação. A partir dela, a classe Funcionario é especializada em perfis como Gerente, Recepcionista e FuncionarioLimpeza, cada um com responsabilidades específicas dentro da operação do hotel. Além disso, a classe HistoricoStatus foi incluída para registrar alterações realizadas no status dos quartos, contribuindo para o controle e rastreabilidade das operações do sistema.
 #### Figura 2: Diagrama de Classes do Sistema.
  
-![Diagrama de Classes](../Diagramadeclasses.png)
+![Diagrama de Classes](../Diagramadeclasse.png)
 
 
 ### 3.4.4 Descrições das Classes
