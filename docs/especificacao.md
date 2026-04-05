@@ -71,182 +71,121 @@ O sistema não contempla funcionalidades de sistemas completos de gestão hotele
 ## 3.4 Modelagem do Sistema
  
 ### 3.4.1 Descrições de Casos de Uso
-Cada diagrama apresentado na seção anterior representa um conjunto de casos de uso relacionados às funcionalidades do sistema HotelMind. A seguir são apresentadas as descrições correspondentes aos casos de uso presentes em cada diagrama.
+Descrição de Casos de Uso - Sistema HotelMind
+#### 1. Gerenciar Quartos
+•	Ator Principal: Gerente.
 
-### Diagrama 1 — Gestão de Quartos
-O Diagrama 1 representa as funcionalidades relacionadas ao gerenciamento e controle dos quartos do hotel, permitindo o cadastro, atualização de status e visualização das informações dos quartos.
+•	Descrição: Gerenciamento completo (incluir, alterar, excluir e consultar) dos dados estruturais dos quartos.
 
-## Casos de uso do Diagrama 1:
-### Efetuar Login
-* Atores: Gerente e Recepcionista.
+•	Pré-condição: Gerente deve estar logado no sistema.
 
-**Descrição:** Permite que o usuário se autentique no sistema para acessar as funcionalidades de acordo com seu perfil.
+•	Fluxo Principal:
+1.	O gerente acessa a área de "Configurações de Quartos".
+2.	O gerente escolhe entre: Cadastrar Novo, Editar Existente ou Remover.
+3.	O sistema solicita os dados (número, tipo, descrição).
+4.	O sistema confirma a operação e salva os dados.
+   
+•	Pós-condição: A base de dados de quartos é atualizada.
 
-**Pré-condição:** O usuário deve estar previamente cadastrado no banco de dados.
+#### 2. Atribuir Funcionário para Limpeza
+•	Ator Principal: Gerente.
 
-### Fluxo Principal:
+•	Descrição: Permite que o gerente selecione um quarto (geralmente com status "Necessita Limpeza" ou "Em Limpeza") e designe um funcionário específico para realizar o serviço.
 
-* O usuário insere suas credenciais (login/e-mail e senha).
-* O sistema valida os dados.
-* O sistema libera o acesso ao painel principal conforme o nível de permissão.
+•	Pré-condição: O quarto deve estar sinalizado como necessitando de limpeza; o funcionário deve estar cadastrado no sistema.
 
-**Pós-condição:** O usuário está autenticado e a sessão é iniciada.
+•	Fluxo Principal:
+1.	O gerente visualiza a lista de quartos que precisam de manutenção/limpeza.
+2.	O gerente seleciona o quarto desejado.
+3.	O sistema exibe a lista de funcionários de limpeza disponíveis.
+4.	O gerente confirma a atribuição.
 
-### Manter Cadastro de Quartos
-* Ator Principal: Gerente.
+•	Pós-condição: O funcionário recebe a tarefa (em seu painel ou dispositivo) e o status do quarto é atualizado para "Limpeza em Andamento".
 
-**Descrição:** Gerenciamento completo (incluir, alterar, excluir e consultar) dos dados estruturais dos quartos.
+#### 3. Gerenciar Funcionários
+•	Ator Principal: Gerente.
 
-**Pré-condição:** Gerente deve estar logado.
+•	Descrição: Gestão completa dos dados dos colaboradores e seus níveis de acesso ao sistema.
 
-### Fluxo Principal:
+•	Pré-condição: Acesso restrito apenas ao perfil "Gerente".
 
-* O gerente acessa a área de "Configurações de Quartos".
-* O gerente escolhe entre: Cadastrar Novo, Editar Existente ou Remover.
-* O sistema solicita os dados (número, tipo, valor da diária, descrição).
-* O sistema confirma a operação e salva os dados.
+•	Fluxo Principal:
+1.	O gerente acessa o módulo "Administração > Funcionários".
+2.	O gerente pode Cadastrar, Editar, Consultar ou Desativar um funcionário.
+3.	Ao cadastrar, o gerente define o Nível de Acesso (Ex: Recepcionista só vê quartos; Limpeza só vê tarefas).
 
-**Pós-condição:** A base de dados de quartos é atualizada.
+#### 4. Visualizar Painel de Quartos
+•	Atores: Gerente e Recepcionista.
 
-### Atualizar Status do Quarto
-* Atores: Gerente e Recepcionista.
+•	Descrição: Interface visual de grade que permite a visualização rápida da disposição física e situação de todos os quartos do hotel.
 
-**Descrição:** Altera a situação operacional de um quarto específico no sistema.
+•	Fluxo Principal:
+1.	O usuário abre o "Mapa Hoteleiro".
+2.	O sistema renderiza cada quarto como um bloco colorido com cores distintas para cada status.
+3.	O usuário pode filtrar por andar ou tipo de quarto.
+4.	Ao clicar em um quarto ocupado, o sistema exibe um resumo (Nome do hóspede e data de saída).
 
-### Fluxo Principal:
+•	Pós-condição: O usuário obtém uma visão geral da disponibilidade do hotel em tempo real.
 
-* O usuário seleciona um quarto no sistema.
-* O usuário escolhe o novo status (Ex: Disponível, Ocupado, Limpeza, Manutenção).
-* O sistema registra a alteração e o horário da mudança.
+#### 5. Controlar Status dos Quartos
+•	Atores: Gerente e Recepcionista.
 
-**Regra de Negócio:** Um quarto com status "Ocupado" não pode ter seu status alterado diretamente para "Disponível" sem passar por "Limpeza" (opcional, dependendo da regra do hotel).
+•	Descrição: Altera a situação operacional de um quarto específico no sistema.
 
-### Consultar Painel de Ocupação
-* Atores: Gerente e Recepcionista.
+•	Fluxo Principal:
+1.	O usuário seleciona um quarto no sistema.
+2.	O usuário escolhe o novo status (Ex: Disponível, Ocupado, Limpeza, Manutenção).
+3.	O sistema registra a alteração e o horário da mudança.
 
-**Descrição:** Interface visual que permite a visualização rápida da situação de todos os quartos do hotel.
+•	Regra de Negócio: Um quarto com status "Ocupado" não pode ter seu status alterado diretamente para "Disponível" sem passar por "Limpeza".
 
-### Fluxo Principal:
+#### 6. Consultar Painel de Ocupação
+•	Atores: Gerente e Recepcionista.
 
-* O usuário acessa a tela de "Mapa de Quartos".
-* O sistema exibe uma grade visual com cores distintas para cada status.
-* O usuário pode filtrar por andar ou tipo de quarto.
+Descrição: Interface visual que permite a visualização rápida da situação de todos os quartos do hotel.
 
-**Pós-condição:** O usuário obtém uma visão geral da disponibilidade do hotel em tempo real.
+Fluxo Principal:
+•	O usuário acessa a tela de "Mapa de Quartos".
+•	O sistema exibe uma grade visual com cores distintas para cada status.
+•	O usuário pode filtrar por andar ou tipo de quarto.
 
-## Diagrama 2 — Gestão de Limpeza
+Pós-condição: O usuário obtém uma visão geral da disponibilidade do hotel em tempo real.
 
-O Diagrama 2 representa as funcionalidades relacionadas ao gerenciamento das atividades de limpeza dos quartos e à atribuição de funcionários responsáveis.
+#### 7. Gerenciar Atividades de Limpeza
+•	Atores: Gerente e Funcionário de Limpeza.
 
-### Atribuir Funcionário à Limpeza
-* Ator Principal: Gerente.
+•	Descrição: Permite o acompanhamento das tarefas de higienização, com visões diferentes dependendo do ator.
 
-**Descrição:** Permite que o gerente selecione um quarto (geralmente com status "Sujo" ou "Em Limpeza") e designe um funcionário específico para realizar o serviço.
+•	Fluxo Principal (Visão do Funcionário):
+1.	O funcionário acessa o sistema.
+2.	O sistema exibe uma lista filtrada apenas com as tarefas pendentes para aquele usuário.
+3.	O funcionário visualiza detalhes (número do quarto, observações especiais).
 
-**Pré-condição:** O quarto deve estar sinalizado como necessitando de limpeza; o funcionário deve estar cadastrado no sistema.
+•	Fluxo Principal (Visão do Gerente):
+1.	O gerente acessa o relatório ou painel de limpeza.
+2.	O sistema exibe o histórico de limpezas concluídas e o tempo médio de execução.
 
-### Fluxo Principal:
+•	Pós-condição: O funcionário tem as informações para iniciar o trabalho, e o gerente obtém dados para avaliação de performance.
 
-* O gerente visualiza a lista de quartos que precisam de manutenção/limpeza.
-* O gerente seleciona o quarto desejado.
-* O sistema exibe a lista de funcionários de limpeza disponíveis.
-* O gerente confirma a atribuição.
+#### 8. Registrar Conclusão de Limpeza
+•	Ator Principal: Funcionário de Limpeza.
 
-**Pós-condição:** O funcionário recebe a tarefa (em seu painel ou dispositivo) e o status do quarto é atualizado para "Limpeza em Andamento".
+•	Descrição: O funcionário informa ao sistema que o quarto está higienizado e pronto para uma nova ocupação.
 
-### Consultar Tarefas de Limpeza
-* Ator Principal: Funcionário de Limpeza.
-
-**Descrição:** Permite que o colaborador visualize quais quartos foram atribuídos a ele e quais as prioridades do dia.
-
-### Fluxo Principal:
-
-* O funcionário acessa o sistema.
-* O sistema exibe uma lista filtrada apenas com as tarefas pendentes para aquele usuário.
-* O funcionário visualiza detalhes (número do quarto, observações especiais).
-  
-**Pós-condição:** O funcionário tem as informações necessárias para iniciar o trabalho.
-
-### Registrar Conclusão de Limpeza
-* Ator Principal: Funcionário de Limpeza.
-
-**Descrição:** O funcionário informa ao sistema que o quarto está higienizado e pronto para uma nova ocupação.
-
-### Fluxo Principal:
-
-* O funcionário seleciona a tarefa concluída em sua lista.
-* O funcionário clica em "Finalizar Limpeza".
-* O sistema solicita a confirmação (opcional: campo para observações, como "frigobar reposto").
-* O sistema altera o status do quarto para "Disponível".
-
-**Pós-condição:** O painel do recepcionista é atualizado automaticamente, liberando o quarto para novos hóspedes.
-
-### Monitorar Atividades de Limpeza
-* Ator Principal: Gerente.
-
-**Descrição:** Visão gerencial de quanto tempo as limpezas estão levando e quais funcionários estão sobrecarregados. (Isso substitui ou detalha o "Gerenciar Atividades" que você sugeriu).
-
-### Fluxo Principal:
-
-* O gerente acessa o relatório ou painel de limpeza.
-* O sistema exibe o histórico de limpezas concluídas e o tempo médio de execução.
-* O gerente pode filtrar por funcionário ou período.
-
-**Pós-condição:** O gerente obtém dados para avaliação de performance da equipe.
-
-
-## Diagrama 3 — Ocupação e Administração
-
-O Diagrama 3 representa as funcionalidades relacionadas ao controle da ocupação do hotel e ao gerenciamento dos funcionários.
-
-### Consultar Dashboard de Ocupação
-* Atores: Gerente e Recepcionista.
-
-**Descrição:** Fornece uma visão analítica e quantitativa da situação do hotel (estatísticas), diferente do "Painel de Quartos" que é mais visual/individual.
-
-### Fluxo Principal:
-
-* O usuário acessa a aba "Relatórios" ou "Dashboard".
-* O sistema calcula em tempo real:
-- Taxa de Ocupação (%).
-- Total de Quartos por categoria (Disponível, Ocupado, Limpeza, Manutenção).
-- Previsão de Check-ins/Check-outs para o dia.
-* O sistema exibe os dados em forma de resumo ou gráficos simples.
-
-**Pós-condição:** O usuário tem uma visão macro para tomada de decisão (ex: "precisamos de mais gente na limpeza hoje").
-
-### Manter Cadastro de Funcionários
-* Ator Principal: Gerente.
-
-**Descrição:** Gestão completa dos dados dos colaboradores e seus níveis de acesso ao sistema.
-
-**Pré-condição:** Acesso restrito apenas ao perfil "Gerente".
-
-### Fluxo Principal:
-
-* O gerente acessa o módulo "Administração > Funcionários".
-* O gerente pode Cadastrar (Nome, CPF, Cargo, Turno), Editar, Consultar ou Desativar um funcionário.
-* Ao cadastrar, o gerente define o Nível de Acesso (Ex: Recepcionista só vê quartos; Limpeza só vê tarefas).
-
-**Regra de Negócio:** O sistema não deve permitir a exclusão física de funcionários que possuam históricos de atividades (limpezas ou check-ins) para auditoria, apenas a "desativação".
-
-### Visualizar Painel de Quartos (Mapa de Grade)
-* Atores: Gerente e Recepcionista.
-
-**Descrição:** Interface de grade que mostra a disposição física dos quartos.
-
-### Fluxo Principal:
-
-* O usuário abre o "Mapa Hoteleiro".
-* O sistema renderiza cada quarto como um bloco colorido.
-* Ao clicar em um quarto ocupado, o sistema exibe um resumo (Nome do hóspede e data de saída).
-
+•	Fluxo Principal:
+1.	O funcionário seleciona a tarefa concluída em sua lista.
+2.	O funcionário clica em "Finalizar Limpeza".
+3.	O sistema solicita a confirmação (opcional: campo para observações, como "frigobar reposto").
+4.	O sistema altera o status do quarto para "Disponível".
+
+•	Pós-condição: O painel do recepcionista é atualizado automaticamente, liberando o quarto para novos hóspedes.
+ 
 #### Figura: Diagrama de Casos de Uso 
 ![Diagrama de Casos de Uso](../Diagramadeuso.png)
 
 ### 3.4.2 Diagrama de Classes 
 
-Figura 4 apresenta o diagrama de classes do sistema HotelMind. O modelo foi estruturado com foco nas funcionalidades previstas no escopo do sistema, especialmente no gerenciamento de quartos, controle de status, atividades de limpeza, controle da ocupação do hotel e gerenciamento de funcionários.
+A figura apresenta o diagrama de classes do sistema HotelMind. O modelo foi estruturado com foco nas funcionalidades previstas no escopo do sistema, especialmente no gerenciamento de quartos, controle de status, atividades de limpeza, controle da ocupação do hotel e gerenciamento de funcionários.
 
 A classe Quarto representa uma das entidades centrais do sistema, armazenando informações como número, tipo e status operacional. A classe AtividadeLimpeza está relacionada ao acompanhamento das tarefas de limpeza dos quartos, permitindo registrar, atribuir responsáveis e concluir atividades. Já a classe PainelOcupacao concentra a visualização geral da situação do hotel, apresentando dados sobre quartos disponíveis, ocupados, em limpeza e em manutenção.
 
