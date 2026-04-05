@@ -242,7 +242,7 @@ O Diagrama 3 representa as funcionalidades relacionadas ao controle da ocupaçã
 * Ao clicar em um quarto ocupado, o sistema exibe um resumo (Nome do hóspede e data de saída).
 
 #### Figura: Diagrama de Casos de Uso 
-![Diagrama de Casos de Uso](../diagramadeuso.png)
+![Diagrama de Casos de Uso](../Diagramadeuso.png)
 
 ### 3.4.2 Diagrama de Classes 
 
@@ -253,20 +253,15 @@ A classe Quarto representa uma das entidades centrais do sistema, armazenando in
 Para representar os usuários do sistema, foi definida a classe abstrata Usuario, responsável pelos dados de autenticação. A partir dela, a classe Funcionario é especializada em perfis como Gerente, Recepcionista e FuncionarioLimpeza, cada um com responsabilidades específicas dentro da operação do hotel. Além disso, a classe HistoricoStatus foi incluída para registrar alterações realizadas no status dos quartos, contribuindo para o controle e rastreabilidade das operações do sistema.
 #### Figura 2: Diagrama de Classes do Sistema.
  
-![Diagrama de Classes](../diagrama%20de%20classes.png)
+![Diagrama de Classes](../Diagramadeclasses.png)
 
 
-### 3.4.3 Descrições das Classes 
+### 3.4.4 Descrições das Classes
 
 | # | Nome | Descrição |
-|--------------------|------------------------------------|----------------------------------------|
-| 1	|	Hotel | Representa o hotel e centraliza o gerenciamento operacional do sistema.	 |
-| 2	| Usuario | Classe abstrata com os dados de autenticação dos usuários.	|
-| 3 |	Funcionario | Classe abstrata base para os funcionários do hotel. |
-| 4 | Gerente | Responsável pelo gerenciamento geral do sistema.	|
-| 5	|	Recepcionista |	Responsável pelo controle de status e visualização dos quartos. |
-| 6 | FuncionarioLimpeza | Responsável pelas atividades de limpeza dos quartos.|
-| 7 | Quarto | Armazena as informações dos quartos do hotel. |
-| 8 | AtividadeLimpeza | Registra e acompanha as tarefas de limpeza. | 
-| 9 | PainelOcupacao | Registra e acompanha as tarefas de limpeza. |
-| 10 | HistoricoStatus | Registra alterações de status dos quartos. |
+|---|------|-----------|
+| 1 | Cliente | Cadastro de informações relativas aos clientes do hotel. |
+| 2 | Quarto | Cadastro e controle das informações dos quartos, como número, tipo e status. |
+| 3 | Funcionario | Cadastro dos funcionários responsáveis pelas operações do sistema. |
+| 4 | Hospedagem | Registro das informações de ocupação dos quartos pelos clientes. |
+| 5 | AtividadeLimpeza | Registro e acompanhamento das atividades de limpeza dos quartos. |
