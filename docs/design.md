@@ -19,7 +19,155 @@ O mapa de empatia contribuiu para entender melhor as expectativas do usuário e 
 ![Mapa de Empatia](../mapadeempatia.png)
 
 ## 4.3 Protótipos das Interfaces
-Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A fidelidade do protótipo refere-se ao nível de detalhes e funcionalidades incorporadas a ele. Assim, um protótipo de alta fidelidade é uma representação interativa do produto, baseada no computador ou em dispositivos móveis. Esse protótipo já apresenta maior semelhança com o design final em termos de detalhes e funcionalidades. No desenvolvimento dos protótipos, devem ser considerados os princípios gestálticos, as recomendações ergonômicas e as regras de design (como as 8 regras de ouro). É importante descrever no texto do relatório como os princípios gestálticos e as regras de ouro foram seguidas no projeto das interfaces. Nesta etapa deve-se dar uma ênfase na implementação do software de modo que possam ser realizados os testes com usuários na etapa seguinte.
+Nesta etapa apresentaremos os protótipos das telas, como foram elaboradas, e quais princípios
+foram seguidos para chegarmos ao resultado em que fique claro, intuitivo e de fácil navegação
+para usuário, procurando evitar erros e que ele se perca no caminho do que quer encontrar. Todas
+as telas foram pensadas para melhor desempenho e atendimento a todos os tipos de públicos e
+leitores.
+
+### Protótipo | Tela de Início
+![Landing Page](../landing_page_v1.png)
+
+#### Objetivo
+Apresentar o sistema HotelMind, comunicar seu valor e converter visitantes em usuários.
+
+#### Princípios Gestálticos
+- **Hierarquia Visual:** Destaque para título e CTAs.
+- **Proximidade:** Conteúdo organizado por seções.
+- **Similaridade:** Cards e ícones padronizados.
+- **Figura-Fundo:** CTAs em destaque.
+- **Continuidade:** Navegação fluida vertical.
+- **Região Comum:** Agrupamento por blocos (features, FAQ, etc.).
+
+#### Recomendações Ergonômicas
+- CTAs claros e objetivos.
+- Textos escaneáveis.
+- Uso de imagens para apoio visual.
+- Navegação simples.
+- Conteúdo progressivo (do geral ao específico).
+
+#### Regras de Ouro
+- Consistência visual.
+- Feedback em interações.
+- Redução da carga de memória.
+- Controle do usuário.
+- Clareza na informação.
+- Organização eficiente.
+
+### Protótipo | Tela Sobre Nós
+![Sobre Nós](../sobre_nos_v1.png)
+
+#### Objetivo
+Apresentar a empresa, seu propósito e proposta de valor.
+
+#### Princípios Gestálticos
+- **Proximidade:** Textos e imagens organizados por contexto.
+- **Figura-Fundo:** Destaque para títulos e blocos.
+- **Hierarquia:** Título → imagem → texto.
+- **Similaridade:** Elementos visuais consistentes.
+- **Equilíbrio:** Distribuição entre imagem e texto.
+
+#### Recomendações Ergonômicas
+- Texto claro e direto.
+- Uso de imagens reais para credibilidade.
+- Layout equilibrado.
+- Boa legibilidade.
+- Organização por seções.
+
+#### Regras de Ouro
+- Consistência visual.
+- Clareza na comunicação.
+- Redução da carga cognitiva.
+- Navegação simples.
+- Informação relevante.
+
+### Protótipo | Tela Fale Conosco
+![Fale Conosco](../fale_conosco_v1.png)
+
+#### Objetivo
+Permitir que o usuário entre em contato com a empresa para suporte, dúvidas ou contratação.
+
+#### Princípios Gestálticos
+- **Proximidade:** Campos do formulário agrupados.
+- **Similaridade:** Inputs padronizados.
+- **Figura-Fundo:** Formulário em destaque.
+- **Hierarquia:** Contato → formulário → botão.
+- **Alinhamento:** Estrutura organizada e limpa.
+
+#### Recomendações Ergonômicas
+- Validação de campos obrigatórios.
+- Feedback após envio.
+- Placeholder orientativo.
+- Redução de esforço cognitivo.
+- Clareza nos rótulos.
+
+#### Regras de Ouro
+- Feedback imediato.
+- Prevenção de erros.
+- Consistência.
+- Controle do usuário.
+- Simplicidade.
+- Redução da carga de memória.
+
+### Protótipo | Tela de Login
+![Login](../login_v1.png)
+
+#### Objetivo
+Permitir que o usuário acesse sua conta no sistema HotelMind de forma rápida, segura e intuitiva, inserindo suas credenciais (e-mail e senha), com suporte a recuperação de senha e opção de manter a sessão ativa.
+
+#### Princípios Gestálticos
+- **Proximidade:** Campos de e-mail, senha, checkbox e botão agrupados indicam relação funcional.
+- **Similaridade:** Inputs possuem o mesmo estilo visual, facilitando reconhecimento.
+- **Figura-Fundo:** O formulário central (card) se destaca do fundo.
+- **Hierarquia Visual:** Título → subtítulo → formulário cria fluxo claro.
+- **Alinhamento:** Elementos centralizados trazem organização.
+- **Continuidade:** Ordem lógica (e-mail → senha → ação).
+
+#### Recomendações Ergonômicas
+- **Consistência:** Padrão visual uniforme (cores, tipografia, botões).
+- **Feedback:** Retorno visual ao clicar em “Entrar” (loading, erro, sucesso).
+- **Prevenção de erros:** Validação de campos (formato de e-mail, campos vazios).
+- **Facilidade de uso:** Placeholder orientativo (ex: seunome@gmail.com).
+- **Acessibilidade:** Bom contraste e legibilidade.
+- **Eficiência:** Opção “Me lembre” reduz esforço futuro.
+
+#### Regras de Ouro (Shneiderman)
+- **Consistência:** Interface padronizada.
+- **Atalhos:** “Me lembre” facilita acessos recorrentes.
+- **Feedback informativo:** Mensagens de erro ou sucesso.
+- **Diálogo simples:** Interface limpa e objetiva.
+- **Prevenção de erros:** Campos guiados e recuperação de senha.
+- **Reversão fácil:** “Esqueci minha senha”.
+- **Controle do usuário:** Escolha de manter sessão ativa.
+- **Redução da carga cognitiva:** Foco no essencial.
+
+### Protótipo | Tela de Redefinir Senha
+![Redefinir Senha](../redefinir_senha_v1.png)
+
+#### Objetivo
+Permitir que o usuário recupere o acesso à conta por meio do envio de um link de redefinição de senha para o e-mail informado.
+
+#### Princípios Gestálticos
+- **Proximidade:** Campo de e-mail e botão agrupados indicam ação única.
+- **Figura-Fundo:** Card central destaca a ação principal.
+- **Hierarquia:** Título → instrução → campo → botão.
+- **Pregnância (Simplicidade):** Interface minimalista focada em uma tarefa.
+- **Continuidade:** Fluxo direto (inserir e-mail → enviar link).
+
+#### Recomendações Ergonômicas
+- Validação do e-mail antes do envio.
+- Feedback claro após envio (ex: “link enviado”).
+- Uso de autofill para reduzir erros.
+- Contraste adequado para acessibilidade.
+- Redução de esforço (apenas 1 campo).
+
+#### Regras de Ouro
+- Consistência com tela de login.
+- Feedback imediato após ação.
+- Prevenção de erros.
+- Reversão simples (voltar ao login).
+- Interface simples e objetiva.
+- Redução da carga cognitiva.
 
 ## 4.4 Testes com Protótipos
 Nesta seção você deve apresentar os testes realizados com usuários utilizando os protótipos de alta fidelidade desenvolvidos na seção anterior. O objetivo é avaliar a usabilidade, a clareza das informações e a adequação do design às necessidades das personas definidas no projeto.
