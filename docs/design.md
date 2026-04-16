@@ -26,7 +26,7 @@ as telas foram pensadas para melhor desempenho e atendimento a todos os tipos de
 leitores.
 
 ### Protótipo | Tela de Início
-![Landing Page](../landing_page_v1.png)
+![Landing Page](../src/prototipos/landing_page_v1.png)
 
 #### Objetivo
 Apresentar o sistema HotelMind, comunicar seu valor e converter visitantes em usuários.
@@ -55,7 +55,7 @@ Apresentar o sistema HotelMind, comunicar seu valor e converter visitantes em us
 - Organização eficiente.
 
 ### Protótipo | Tela Sobre Nós
-![Sobre Nós](../sobre_nos_v1.png)
+![Sobre Nós](../src/prototipos/sobre_nos_v1.png)
 
 #### Objetivo
 Apresentar a empresa, seu propósito e proposta de valor.
@@ -82,7 +82,7 @@ Apresentar a empresa, seu propósito e proposta de valor.
 - Informação relevante.
 
 ### Protótipo | Tela Fale Conosco
-![Fale Conosco](../fale_conosco_v1.png)
+![Fale Conosco](../src/prototipos/fale_conosco_v1.png)
 
 #### Objetivo
 Permitir que o usuário entre em contato com a empresa para suporte, dúvidas ou contratação.
@@ -110,7 +110,7 @@ Permitir que o usuário entre em contato com a empresa para suporte, dúvidas ou
 - Redução da carga de memória.
 
 ### Protótipo | Tela de Login
-![Login](../login_v1.png)
+![Login](../src/prototipos/login_v1.png)
 
 #### Objetivo
 Permitir que o usuário acesse sua conta no sistema HotelMind de forma rápida, segura e intuitiva, inserindo suas credenciais (e-mail e senha), com suporte a recuperação de senha e opção de manter a sessão ativa.
@@ -142,7 +142,7 @@ Permitir que o usuário acesse sua conta no sistema HotelMind de forma rápida, 
 - **Redução da carga cognitiva:** Foco no essencial.
 
 ### Protótipo | Tela de Redefinir Senha
-![Redefinir Senha](../redefinir_senha_v1.png)
+![Redefinir Senha](../src/prototipos/redefinir_senha_v1.png)
 
 #### Objetivo
 Permitir que o usuário recupere o acesso à conta por meio do envio de um link de redefinição de senha para o e-mail informado.
