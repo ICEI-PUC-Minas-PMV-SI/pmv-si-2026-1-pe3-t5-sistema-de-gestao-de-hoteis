@@ -181,7 +181,7 @@ Pós-condição: O usuário obtém uma visão geral da disponibilidade do hotel 
 •	Pós-condição: O painel do recepcionista é atualizado automaticamente, liberando o quarto para novos hóspedes.
  
 #### Figura: Diagrama de Casos de Uso 
-![Diagrama de Casos de Uso](../Diagramadeuso.png)
+![Diagrama de Casos de Uso](../src/diagramas/Diagramadeuso.png)
 
 ### 3.4.2 Diagrama de Classes 
 
@@ -192,7 +192,7 @@ A classe Quarto representa uma das entidades centrais do sistema, armazenando in
 Para representar os usuários do sistema, foi definida a classe abstrata Usuario, responsável pelos dados de autenticação. A partir dela, a classe Funcionario é especializada em perfis como Gerente, Recepcionista e FuncionarioLimpeza, cada um com responsabilidades específicas dentro da operação do hotel. Além disso, a classe HistoricoStatus foi incluída para registrar alterações realizadas no status dos quartos, contribuindo para o controle e rastreabilidade das operações do sistema.
 #### Figura 2: Diagrama de Classes do Sistema.
  
-![Diagrama de Classes](../Diagramadeclasse.png)
+![Diagrama de Classes](../src/diagramas/Diagramadeclasse.png)
 
 
 ### 3.4.4 Descrições das Classes
