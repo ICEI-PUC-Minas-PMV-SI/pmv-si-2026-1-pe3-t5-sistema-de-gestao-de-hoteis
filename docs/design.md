@@ -17,20 +17,35 @@ A persona criada representa uma recepcionista de hotel, responsável por verific
 ### Figura 4: Persona F&B Director
 ![Persona](../src/personas/RICARDO_-_FB_DIRECTOR.png)
 
-### Figura 5: Persona Chief Concierge
-![Persona](../src/personas/MARCUS_-_CHEF_.png)
-
-### Figura 6: Persona Revenue Manager
+### Figura 5: Persona Revenue Manager
 ![Persona](../src/personas/SOPHIA_-_REVENUE_.png)
+
+### Figura 6: Persona Chief Concierge
+![Persona](../src/personas/MARCUS_-_CHEF_.png)
 
 ## 4.2 Mapa de Empatia
 O mapa de empatia foi desenvolvido com o objetivo de compreender melhor as necessidades, comportamentos e desafios da persona definida para o sistema HotelMind. A partir dessa ferramenta, foi possível identificar como o usuário pensa, sente, age e quais dificuldades enfrenta durante a utilização do sistema.
 
 O mapa de empatia contribuiu para entender melhor as expectativas do usuário e apoiar o desenvolvimento de um sistema mais eficiente e adequado às suas necessidades.
 
-#### Figura 1: Mapa de Empatia da Recepcionista
+### Figura 1: Mapa de Empatia General Manager
+![Persona](../src/mapas/MarcosGeneralManager.png)
 
-![Mapa de Empatia](../mapadeempatia.png)
+### Figura 2: Mapa de Empatia Front Office Manager
+![Persona](../src/mapas/JulianaFrontOffice.png)
+
+### Figura 3: Mapa de Empatia Executive Housekeeper
+![Persona](../src/mapas/HelenaHousekeeper.png)
+
+### Figura Figura 4: Mapa de Empatia F&B Director
+![Persona](../src/mapas/RicardoFeB.png)
+
+### Figura 5: Mapa de Empatia Revenue Manager
+![Persona](../src/mapas/SophiaRevenue.png)
+
+### Figura 6: Mapa de Empatia Chief Concierge
+![Persona](../src/mapas/MarcusChefConcierge.png)
+
 
 ## 4.3 Protótipos das Interfaces
 Nesta etapa apresentaremos os protótipos das telas, como foram elaboradas, e quais princípios
