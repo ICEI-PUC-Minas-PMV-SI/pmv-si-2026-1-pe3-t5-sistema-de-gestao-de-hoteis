@@ -6,22 +6,22 @@ Nesta seção é apresentada a persona definida para representar um dos principa
 A persona criada representa uma recepcionista de hotel, responsável por verificar a disponibilidade dos quartos, atualizar o status das ocupações e garantir a organização das informações no sistema. Essa persona foi utilizada para orientar o desenvolvimento das funcionalidades do sistema e facilitar a compreensão das necessidades dos usuários.
 
 ### Figura 1: Persona General Manager
-![Persona](../src/personas/MARCOS_-_GENERAL_MANAGER.png)
+![Persona](../src/personas/MarcosGeneralManager.png)
 
 ### Figura 2: Persona Front Office Manager
-![Persona](../src/personas/JULIANA_-_FRONT_OFFICE.png)
+![Persona](../src/personas/JulianaFrontOffice.png)
 
 ### Figura 3: Persona Executive Housekeeper
-![Persona](../src/personas/HELENA_-_EX_HOUSEKEEPER.png)
+![Persona](../src/personas/HelenaExHousekeeper.png)
 
 ### Figura 4: Persona F&B Director
-![Persona](../src/personas/RICARDO_-_FB_DIRECTOR.png)
+![Persona](../src/personas/RicardoFbDirector.png)
 
 ### Figura 5: Persona Revenue Manager
-![Persona](../src/personas/SOPHIA_-_REVENUE_.png)
+![Persona](../src/personas/SophiaRevenueManager.png)
 
 ### Figura 6: Persona Chief Concierge
-![Persona](../src/personas/MARCUS_-_CHEF_.png)
+![Persona](../src/personas/MarcusChef.png)
 
 ## 4.2 Mapa de Empatia
 O mapa de empatia foi desenvolvido com o objetivo de compreender melhor as necessidades, comportamentos e desafios da persona definida para o sistema HotelMind. A partir dessa ferramenta, foi possível identificar como o usuário pensa, sente, age e quais dificuldades enfrenta durante a utilização do sistema.
