@@ -6,7 +6,7 @@ Nesta seção é apresentada a persona definida para representar um dos principa
 A persona criada representa uma recepcionista de hotel, responsável por verificar a disponibilidade dos quartos, atualizar o status das ocupações e garantir a organização das informações no sistema. Essa persona foi utilizada para orientar o desenvolvimento das funcionalidades do sistema e facilitar a compreensão das necessidades dos usuários.
 
 ### Figura 1: Persona General Manager
-![Persona](../src/personas/MarcosGeneralManager.png)
+![Persona](../src/personas/MarcosGM.png)
 
 ### Figura 2: Persona Front Office Manager
 ![Persona](../src/personas/JulianaFrontOffice.png)
