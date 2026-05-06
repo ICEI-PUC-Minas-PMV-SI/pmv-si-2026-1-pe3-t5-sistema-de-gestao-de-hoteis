@@ -198,6 +198,92 @@ Permitir que o usuário recupere o acesso à conta por meio do envio de um link 
 - Interface simples e objetiva.
 - Redução da carga cognitiva.
 
+
+### Protótipo | Tela Início Recepcionista
+![Início Recepcionista](../src/prototipos/inicio_recepcionista.png)
+
+#### Objetivo
+Permitir que a recepcionista acompanhe em tempo real a situação geral do hotel, incluindo ocupação, disponibilidade dos quartos e status das limpezas.
+
+#### Princípios Gestálticos
+- **Proximidade:** Cards e gráficos agrupados por categoria facilitam a leitura operacional.
+- **Figura-Fundo:** Os cards em destaque direcionam atenção para informações principais.
+- **Hierarquia:** Indicadores principais aparecem antes de gráficos e tabelas.
+- **Pregnância:** Interface limpa e objetiva com foco no monitoramento rápido.
+- **Continuidade:** Fluxo visual conduz o usuário dos indicadores gerais para detalhes operacionais.
+
+#### Recomendações Ergonômicas
+- Uso de cores para identificar rapidamente o status dos quartos.
+- Informações organizadas em blocos para reduzir sobrecarga visual.
+- Ícones intuitivos para facilitar reconhecimento das funcionalidades.
+- Layout responsivo e consistente com as demais telas.
+- Redução da carga cognitiva através de dashboards resumidos.
+
+#### Regras de Ouro
+- Consistência visual com o dashboard do gerente.
+- Feedback visual imediato dos status operacionais.
+- Interface simples e objetiva.
+- Prevenção de erros ao limitar ações da recepcionista.
+- Organização lógica das informações.
+
+---
+
+### Protótipo | Tela Quartos Recepcionista
+![Quartos Recepcionista](../src/prototipos/quartos_recepcionista.png)
+
+#### Objetivo
+Permitir que a recepcionista visualize rapidamente o mapa hoteleiro, acompanhando a situação dos quartos em tempo real.
+
+#### Princípios Gestálticos
+- **Proximidade:** Quartos organizados em grade facilitam percepção por andar.
+- **Figura-Fundo:** Cores destacam diferentes status dos quartos.
+- **Hierarquia:** Informações principais dos quartos aparecem primeiro.
+- **Pregnância:** Estrutura visual simples favorece leitura rápida.
+- **Continuidade:** Fluxo visual natural entre filtros e mapa de quartos.
+
+#### Recomendações Ergonômicas
+- Uso de cores padronizadas para cada status.
+- Filtros simples para facilitar localização dos quartos.
+- Informações resumidas para evitar excesso visual.
+- Modal informativo ao clicar em um quarto ocupado.
+- Interface intuitiva com baixa curva de aprendizado.
+
+#### Regras de Ouro
+- Consistência com os demais painéis do sistema.
+- Feedback visual imediato ao selecionar quartos.
+- Minimização da carga cognitiva.
+- Prevenção de ações indevidas pela recepcionista.
+- Clareza na identificação dos status.
+
+---
+
+### Protótipo | Tela Limpeza Recepcionista
+![Limpeza Recepcionista](../src/prototipos/limpeza_recepcionista.png)
+
+#### Objetivo
+Permitir que a recepcionista acompanhe o andamento das limpezas dos quartos de forma visual e organizada.
+
+#### Princípios Gestálticos
+- **Proximidade:** Informações de limpeza agrupadas por status.
+- **Figura-Fundo:** Indicadores visuais destacam limpezas pendentes e concluídas.
+- **Hierarquia:** Status mais importantes aparecem em destaque.
+- **Pregnância:** Interface simples focada em acompanhamento operacional.
+- **Continuidade:** Fluxo visual favorece acompanhamento sequencial das tarefas.
+
+#### Recomendações Ergonômicas
+- Uso de indicadores visuais para facilitar identificação rápida.
+- Layout organizado em listas e cards.
+- Contraste adequado para acessibilidade.
+- Informações resumidas para facilitar monitoramento.
+- Padronização visual com as demais telas do sistema.
+
+#### Regras de Ouro
+- Consistência visual entre módulos.
+- Feedback imediato sobre status das limpezas.
+- Simplicidade operacional.
+- Redução de sobrecarga visual.
+- Clareza nas informações exibidas.
+
 ## 4.4 Testes com Protótipos
 Nesta seção você deve apresentar os testes realizados com usuários utilizando os protótipos de alta fidelidade desenvolvidos na seção anterior. O objetivo é avaliar a usabilidade, a clareza das informações e a adequação do design às necessidades das personas definidas no projeto.
 
