@@ -6,11 +6,9 @@ Nesta etapa devem ser realizados dois tipos de avaliação: por observação de 
 
 Ao final, os relatórios gerados por cada membro deverão ser disponibilizados aqui, juntamente com a planilha consolidada da avaliação heurística.
 
-Material de apoio para esta etapa:
+Materiais preenchidos:
+[Avaliação_Heurística.xlsx](../src/relatoriosTestes/avaliacaoHeuristica.xlsx) 
+[Relatório_de_Testes_com_Usuário_Beatriz.pdf](../src/relatoriosTestes/Relatório_de_Testes_com_Usuário_Beatriz.pdf)
 
-
-[Avaliação_Heurística.xlsx](https://github.com/user-attachments/files/16501461/Avaliacao_Heuristica.xlsx) 
-
-[Relatório_de_Testes_com_Usuário.docx](https://github.com/user-attachments/files/16501456/Relatorio_de_Testes_com_Usuario.docx)
-
+Material de exemplo:
 [Relatório_de_Testes_com_Usuário_exemplo.docx](https://github.com/user-attachments/files/16501459/Relatorio_de_Testes_com_Usuario_exemplo.docx)
