@@ -75,6 +75,10 @@ Ao final, os relatórios gerados por cada membro deverão ser disponibilizados a
 ## Materiais preenchidos:
 1. [Avaliação_Heurística.xlsx](../src/relatoriosTestes/avaliacaoHeuristica.xlsx) 
 2. [Relatório_de_Testes_com_Usuário_Beatriz.pdf](../src/relatoriosTestes/Relatório_de_Testes_com_Usuário_Beatriz.pdf)
+3. [Relatório_de_Testes_com_Usuário_Lucas.pdf](../src/relatoriosTestes/Relatório_de_Testes_com_Usuário_Lucas.pdf)
+4. [Relatório_de_Testes_com_Usuário_Ana.pdf](Insira aqui o seu caminho)
+5. [Relatório_de_Testes_com_Usuário_Júlio.pdf](Insira aqui o seu caminho)
+6. [Relatório_de_Testes_com_Usuário_Isabelle.pdf](Insira aqui o seu caminho)
 -------
 Material de exemplo:
 [Relatório_de_Testes_com_Usuário_exemplo.docx](https://github.com/user-attachments/files/16501459/Relatorio_de_Testes_com_Usuario_exemplo.docx)
