@@ -78,7 +78,7 @@ Ao final, os relatórios gerados por cada membro deverão ser disponibilizados a
 3. [Relatório_de_Testes_com_Usuário_Lucas.pdf](../src/relatoriosTestes/Relatório_de_Testes_com_Usuário_Lucas.pdf)
 4. [Relatório_de_Testes_com_Usuário_Ana.pdf](../src/relatoriosTestes/Relatórios_de_Testes_com_Usuário_Ana.pdf)
 5. [Relatório_de_Testes_com_Usuário_Júlio.pdf](../src/relatoriosTestes/Relatorio_de_Testes_com_Usuario_Julio.pdf)
-6. [Relatório_de_Testes_com_Usuário_Isabelle.pdf](Insira aqui o seu caminho)
+6. [Relatório_de_Testes_com_Usuário_Isabelle.pdf](../src/relatoriosTestes/Relatorio_de_Testes_com_Usuario_Isabelle.pdf)
 -------
 Material de exemplo:
 [Relatório_de_Testes_com_Usuário_exemplo.docx](https://github.com/user-attachments/files/16501459/Relatorio_de_Testes_com_Usuario_exemplo.docx)
